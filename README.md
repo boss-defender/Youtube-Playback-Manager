@@ -1,11 +1,12 @@
-# Youtube-Playback_Manager
-It will free you from hassle.
+# YouTube Playback Manager
+
+Automatically keeps YouTube and YouTube Music from playing at the same time.
 
 # What's the Magic ?
 
-Many times we watch video tutorials on YouTube in one tab for any coding or programing related video and we listen to songs on YouTube Music in another tab 
-but when we start the video tutorial, we have to manually pause the song on YouTube Music tab and then start watching tutorial 
-but when we pause video tutorials, we have to go to youtube music tab to continue Music again . this extension solve that issues . You should  use Chrome browser and just use it as chrome extension .
+When playback starts on either YouTube or YouTube Music, the extension pauses the other service. When playback is paused or ends, it starts or resumes the other service. This works in both directions.
+
+The extension coordinates every matching tab in the same Chrome profile, including tabs in different Chrome windows. Install and enable the extension in the Chrome profile that contains those tabs.
 
 # how to use it ?
 
@@ -29,12 +30,7 @@ and refresh it
 
 <img width="515" height="302" alt="image" src="https://github.com/user-attachments/assets/359ef723-0374-4c50-af34-661ab3ed3136" />
 
-7) now close chrome browser and open chrome browser again
+7) Reload the extension from `chrome://extensions/` after replacing its files, then refresh any YouTube tabs that were already open. You can use YouTube and YouTube Music in different tabs or windows.
 
-It should work! 
-
-# Note: 
-never delete the folder or change location of that folder .
-otherwise you have to do same setup again from beginning
-
-
+# Note:
+Keep the extension folder in place after loading it unpacked. If you move or delete it, Chrome will need you to load the extension again.
